@@ -1,0 +1,40 @@
+{
+    "name": "akki-io/laravel-nova-assets",
+    "description": "A simple package for laravel nova to manage all nova related assets.",
+    "keywords": [
+        "akki-io",
+        "laravel-nova",
+        "laravel-nova-assets"
+    ],
+    "homepage": "https://github.com/akki-io/laravel-nova-assets",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Akki Khare",
+            "email": "hello@akki.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "symfony/process": "^6.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "AkkiIo\\LaravelNovaAssets\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AkkiIo\\LaravelNovaAssets\\LaravelNovaAssetsServiceProvider"
+            ]
+        }
+    }
+}
