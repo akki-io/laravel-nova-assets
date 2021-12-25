@@ -32,6 +32,7 @@ class NovaMixCommand extends Command
      * Execute the console command.
      *
      * @return void
+     *
      * @throws \Exception
      */
     public function handle()
@@ -115,7 +116,7 @@ class NovaMixCommand extends Command
      * Create files.
      *
      * @param $directory
-     * @param array $options
+     * @param  array  $options
      * @return void
      */
     private function createFiles($directory, array $options)
@@ -141,6 +142,7 @@ class NovaMixCommand extends Command
      * Do the prep work for nova.
      *
      * @return void
+     *
      * @throws \Exception
      */
     private function setNova()
