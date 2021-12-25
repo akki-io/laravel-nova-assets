@@ -44,6 +44,12 @@ Once the command is executed you will need to update the laravel nova auth layou
 - Copy the auth layout `vendor/laravel/nova/resources/views/auth/layout.blade.php` to `resources/views/vendor/nova/auth/layout.blade.php`
 - Copy the main layout `vendor/laravel/nova/resources/views/layout.blade.php` to `resources/views/vendor/nova/layout.blade.php`
 
+Add manifest files above the `</head>` tag for both files.
+
+```html
+<link rel="manifest" href="/vendor/laravel-nova-assets/mix-manifest.json">
+```
+
 Replace these following section in the newly copied files.
 
 Original Content
