@@ -25,9 +25,15 @@ You can install the package via composer:
 composer require akki-io/laravel-nova-assets
 ```
 
-Next, publish the vendor files using `php artisan vendor:publish` and select `Provider: AkkiIo\LaravelNovaAssets\LaravelNovaAssetsServiceProvider`.
+Publish the package files:
 
-This will publish the config file `config/laravel-nova-assets.php` and the webpack file `webpack.mix.nova.js`.
+```bash
+php artisan vendor:publish --provider 'AkkiIo\LaravelNovaAssets\LaravelNovaAssetsServiceProvider'`
+```
+
+This will publish the 
+- config file `config/laravel-nova-assets.php` and 
+- the webpack file `webpack.mix.nova.js`.
 
 ## Usage
 
