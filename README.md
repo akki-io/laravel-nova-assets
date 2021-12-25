@@ -117,6 +117,10 @@ If you are using custom scripts and styles, add the following sections to these 
 
 You can specify you custom CSS/JS in the config file `laravel-nova-assets.php` under the `styles` and `scripts` section.
 
+### Running the command on a CI/CD
+
+You will need to create a dummy user if you are using this command to generate assets. Unfortunately, I was not able to find a work around for this.
+
 ## Using CDN
 
 `publiux/laravelcdn` package provides a simple way to move these assets to CDN for better performance. Refer to the repo here for more information - https://github.com/publiux/laravelcdn
