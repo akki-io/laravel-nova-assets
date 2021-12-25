@@ -6,7 +6,7 @@
 
 [![Latest Version](https://img.shields.io/github/release/akki-io/laravel-nova-assets.svg?style=flat-square)](https://github.com/akki-io/laravel-nova-assets/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![StyleCI](https://styleci.io/repos/291209513/shield?branch=master)](https://styleci.io/repos/291209513)
+[![StyleCI](https://styleci.io/repos/441735142/shield?branch=master)](https://styleci.io/repos/441735142)
 [![Total Downloads](https://img.shields.io/packagist/dt/akki-io/laravel-nova-assets.svg?style=flat-square)](https://packagist.org/packages/akki-io/laravel-nova-assets)
 
 This package provides a console command to convert dynamic JS/CSS to static JS/CSS assets.
@@ -14,7 +14,7 @@ This package provides a console command to convert dynamic JS/CSS to static JS/C
 ## Requirements
 
 - laravel-mix v6.0+
-- php7.3+
+- php 7.3+
 - laravel nova 3.0+
 
 ## Installation
