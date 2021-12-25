@@ -28,7 +28,7 @@ composer require akki-io/laravel-nova-assets
 Publish the package files:
 
 ```bash
-php artisan vendor:publish --provider 'AkkiIo\LaravelNovaAssets\LaravelNovaAssetsServiceProvider'`
+php artisan vendor:publish --provider 'AkkiIo\LaravelNovaAssets\LaravelNovaAssetsServiceProvider'
 ```
 
 This will publish the 
