@@ -129,7 +129,9 @@ You will need to create a dummy user if you are using this command to generate a
 
 ## Using CDN
 
-`publiux/laravelcdn` package provides a simple way to move these assets to CDN for better performance. Refer to the repo here for more information - https://github.com/publiux/laravelcdn
+There are few packages that already provides this feature, some of these are
+- `arubacao/asset-cdn` - https://github.com/arubacao/asset-cdn
+- `publiux/laravelcdn` - https://github.com/publiux/laravelcdn
 
 ## Contributing
 
